@@ -7,7 +7,12 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["placeholder.svg"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "placeholder.svg",
+      },
+    ],
     unoptimized: true,
   },
   experimental: {
@@ -19,6 +24,11 @@ const nextConfig = {
   httpAgentOptions: {
     keepAlive: true,
   },
+  reactStrictMode: true,
+  //swcMinify: true,
+  output: "export",
+  trailingSlash: true,
+  skipTrailingSlashRedirect: true,
 }
 
 module.exports = nextConfig

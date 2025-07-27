@@ -4,8 +4,11 @@ import { useEffect } from "react"
 
 export function Analytics() {
   useEffect(() => {
-    // Google Analytics or other analytics implementation
-    console.log("Analytics initialized")
+    // Only run analytics in production
+    if (process.env.NODE_ENV === "production") {
+      // Add your analytics code here
+      console.log("Analytics loaded")
+    }
   }, [])
 
   return null

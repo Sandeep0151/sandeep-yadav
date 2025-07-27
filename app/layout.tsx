@@ -9,11 +9,13 @@ import { Suspense } from "react"
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
 })
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -40,7 +42,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://sandeep-yadav.vercel.app"),
+  metadataBase: new URL("https://alexrivera-dev.vercel.app"),
   alternates: {
     canonical: "/",
   },
@@ -79,7 +81,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    generator: 'v0.dev'
+  generator: "Next.js",
 }
 
 export default function RootLayout({
@@ -95,16 +97,14 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#0f0f23" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body className="font-inter antialiased">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <Suspense fallback={null}>
+        <Suspense fallback={null}>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false} disableTransitionOnChange>
             {children}
             <Analytics />
-          </Suspense>
-        </ThemeProvider>
+          </ThemeProvider>
+        </Suspense>
       </body>
     </html>
   )
