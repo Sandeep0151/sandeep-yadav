@@ -19,45 +19,44 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Alex Rivera - Senior Full Stack Developer | AI & Web3 Specialist",
+  title: "Sandeep Yadav - Full Stack Developer",
   description:
-    "Award-winning Senior Full Stack Developer with 8+ years of experience in Django, React, Next.js, AI integration, and Web3 technologies. Building the future of web applications.",
+    "Full Stack Developer with 4+ years of experience in Django, React, Next.js and AI integration. Building the future of web applications.",
   keywords: [
-    "Senior Full Stack Developer",
+    "Full Stack Developer",
     "AI Integration",
-    "Web3 Developer",
     "Django Expert",
     "React Specialist",
     "Next.js",
     "TypeScript",
     "Python",
-    "Blockchain",
-    "Machine Learning",
+    "FastAPI",
+    "Prompt Engineering",
   ],
-  authors: [{ name: "Alex Rivera" }],
-  creator: "Alex Rivera",
-  publisher: "Alex Rivera",
+  authors: [{ name: "Sandeep Yadav" }],
+  creator: "Sandeep Yadav",
+  publisher: "Sandeep Yadav",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://alexrivera-dev.vercel.app"),
+  metadataBase: new URL("https://sandeep-yadav-developer.vercel.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Alex Rivera - Senior Full Stack Developer | AI & Web3 Specialist",
+    title: "Sandeep Yadav - Full Stack Developer",
     description:
-      "Award-winning Senior Full Stack Developer building cutting-edge web applications with AI and Web3 integration. Let's create something extraordinary together!",
-    url: "https://alexrivera-dev.vercel.app",
-    siteName: "Alex Rivera - Developer Portfolio",
+      "Full Stack Developer with 4+ years of experience in Django, React, Next.js and AI integration. Building the future of web applications.",
+    url: "https://sandeep-yadav-developer.vercel.app",
+    siteName: "Sandeep Yadav - Developer Portfolio",
     images: [
       {
         url: "/og-image-premium.jpg",
         width: 1200,
         height: 630,
-        alt: "Alex Rivera - Senior Full Stack Developer",
+        alt: "Sandeep Yadav - Full Stack Developer",
       },
     ],
     locale: "en_US",
@@ -65,10 +64,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Rivera - Senior Full Stack Developer",
-    description: "Building the future with AI-powered web applications and Web3 technologies.",
+    title: "Sandeep Yadav - Full Stack Developer",
+    description: "Building the future with AI-powered web applications.",
     images: ["/og-image-premium.jpg"],
-    creator: "@alexrivera_dev",
+    creator: "@_sandeepyadav1_",
   },
   robots: {
     index: true,

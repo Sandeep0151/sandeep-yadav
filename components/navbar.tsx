@@ -75,7 +75,7 @@ export function Navbar() {
                 <Zap className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Alex Rivera
+                Sandeep Yadav
               </span>
             </div>
           </div>
@@ -101,27 +101,7 @@ export function Navbar() {
             </div>
           </div>
 
-          <div className="flex items-center space-x-4">
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 transition-colors"
-            >
-              {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-            </Button>
-
-            <div className="md:hidden">
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 transition-colors"
-              >
-                {isMenuOpen ? <X className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
-              </Button>
-            </div>
-          </div>
+          
         </div>
       </div>
 

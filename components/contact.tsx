@@ -75,7 +75,7 @@ export function Contact() {
                     </div>
                     <div>
                       <div className="font-semibold text-white">Email</div>
-                      <div className="text-gray-300">alex.rivera@example.com</div>
+                      <div className="text-gray-300">sandeepyaduvanshi28@gmail.com</div>
                       <div className="text-sm text-gray-400">Response within 24 hours</div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ export function Contact() {
                     </div>
                     <div>
                       <div className="font-semibold text-white">WhatsApp</div>
-                      <div className="text-gray-300">+1 (555) 987-6543</div>
+                      <div className="text-gray-300">+91 9352622100</div>
                       <div className="text-sm text-gray-400">For urgent discussions</div>
                     </div>
                   </div>
@@ -120,7 +120,7 @@ export function Contact() {
                     </div>
                     <div>
                       <div className="font-semibold text-white">Location</div>
-                      <div className="text-gray-300">San Francisco, CA</div>
+                      <div className="text-gray-300">Ahmedabad, IN</div>
                       <div className="text-sm text-gray-400">Available globally (Remote)</div>
                     </div>
                   </div>

@@ -18,14 +18,14 @@ export function Footer() {
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">AR</span>
+                <span className="text-white font-bold text-lg">SY</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                Alex Rivera
+                Sandeep Yadav
               </span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Senior Full Stack Developer passionate about building the future with AI, Web3, and cutting-edge
+              Full Stack Developer passionate about building the future with AI, Web3, and cutting-edge
               technologies.
             </p>
             <div className="flex space-x-3">
@@ -35,7 +35,7 @@ export function Footer() {
                 className="bg-gray-800/50 border-gray-700/50 hover:bg-gray-700/50"
                 asChild
               >
-                <a href="https://github.com/alexrivera" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/sandeep0151" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                 </a>
               </Button>
@@ -45,7 +45,7 @@ export function Footer() {
                 className="bg-gray-800/50 border-gray-700/50 hover:bg-gray-700/50"
                 asChild
               >
-                <a href="https://linkedin.com/in/alexrivera" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/sandeep-yadav-devloper" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                 </a>
               </Button>
@@ -55,7 +55,7 @@ export function Footer() {
                 className="bg-gray-800/50 border-gray-700/50 hover:bg-gray-700/50"
                 asChild
               >
-                <a href="https://twitter.com/alexrivera_dev" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/_sandeepyadav1_" target="_blank" rel="noopener noreferrer">
                   <Twitter className="h-4 w-4" />
                 </a>
               </Button>
@@ -65,7 +65,7 @@ export function Footer() {
                 className="bg-gray-800/50 border-gray-700/50 hover:bg-gray-700/50"
                 asChild
               >
-                <a href="https://wa.me/15559876543" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919352622100" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="h-4 w-4" />
                 </a>
               </Button>
@@ -75,7 +75,7 @@ export function Footer() {
                 className="bg-gray-800/50 border-gray-700/50 hover:bg-gray-700/50"
                 asChild
               >
-                <a href="mailto:alex.rivera@example.com">
+                <a href="mailto:sandeepyaduvanshi28@gmail.com">
                   <Mail className="h-4 w-4" />
                 </a>
               </Button>
@@ -132,7 +132,7 @@ export function Footer() {
               </div>
               <div>
                 <div className="text-white font-medium">Time Zone</div>
-                <div className="text-gray-400 text-sm mt-1">PST (GMT-8)</div>
+                <div className="text-gray-400 text-sm mt-1">(IST) – UTC +5:30</div>
               </div>
             </div>
             <Badge className="bg-blue-500/20 text-blue-400 border-blue-500/30">Available for hire</Badge>
@@ -141,7 +141,7 @@ export function Footer() {
 
         <div className="border-t border-gray-800/50 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 flex items-center text-sm">
-            © {currentYear} Alex Rivera. Crafted with <Heart className="h-4 w-4 mx-2 text-red-500" /> using Next.js
+            © {currentYear} Sandeep Yadav. Crafted with <Heart className="h-4 w-4 mx-2 text-red-500" /> using Next.js
           </p>
           <div className="flex items-center space-x-6 mt-4 sm:mt-0">
             <a href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
